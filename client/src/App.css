@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Sora', sans-serif;
+}
+.navigation-bar{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+  background-color: rgb(22, 20, 20);
+  color: white;
+}
+.navigation-bar h4{
+  align-self: center;
+}
+.create-student-form{
+  display: flex;
+  justify-content: center;
+  margin: 100px 10px;
+}
+.create-student-form h2{
+  text-align: center;
+}
+.create-student-form form{
+  padding: 10px;
+}
+.create-student-form input{
+  margin: 5px 0px;
+}
+.all-students{
+  margin: 30px 10px;
+}
+.delete-student{
+  color: rgb(182, 32, 32);
+  margin: 0px 10px;
+}
+.delete-student:hover{
+  color: rgb(182, 32, 32);
+}
+.update-student-form{
+  display: flex;
+  justify-content: center;
+  margin: 100px 10px;
+}
+.update-student-form h2{
+  text-align: center;
+}
+.update-student-form form{
+  padding: 10px;
+}
+.update-student-form input{
+  margin: 5px 0px;
+}
